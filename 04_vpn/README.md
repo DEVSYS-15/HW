@@ -165,11 +165,11 @@ nc 10.1.0.1 3000
 ### Вопросы
 
 1\. Пришлите скриншот Wireshark, где видно, что данные передаются в открытом виде (для раздела PlainText)
-![PlainText](/HW/04_vpn/pic/PlainText.jpg)
+![PlainText](pic/PlainText.jpg)
 
 
 2\. Пришлите скриншот Wireshark, где видно, что данные не передаются в открытом виде (для раздела Shared Key)
-![PlainText](/HW/04_vpn/pic/Shared%20Key.jpg)
+![PlainText](pic/Shared%20Key.jpg)
 На сервере или на клиенте запустите команду с флагом `--verb 3`, например, на Kali - `sudo openvpn --ifconfig 10.1.0.2 10.1.0.1 --dev tun --remote 10.0.0.1 --secret vpn.key --verb 3`
 
 Внимательно изучите вывод и пришлите ответы на следующие вопросы:
